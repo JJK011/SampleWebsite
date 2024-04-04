@@ -41,7 +41,7 @@ body{
 	font-family: 'Poppins', sans-serif;
 	font-size:16px;
 	color: #676a81;
-	background: #fff;
+	background: #e1e1f0;   /* #fff; */
     max-width:1920px;
     margin:0 auto;
 	overflow-x:hidden;
@@ -106,12 +106,12 @@ html,body{
 }
 @media (min-width: 1024px){}
 nav.navbar.bootsnav.no-background {
-    background-color: #fff;
+    background-color:#15123e;  /* #fff; */
     border: none;
 }
 
 nav.navbar.bootsnav {
-    background-color: #fff;
+    background-color: #15123e;  /* #fff; */
     border-bottom: transparent;
     box-shadow: 0 3px 15px rgba(0,0,0,.2);
 }
@@ -120,7 +120,7 @@ nav.navbar.bootsnav {
 .navbar-header a.navbar-brand,.navbar-header a.navbar-brand:hover,.navbar-header a.navbar-brand:focus {
     display: inline-block;
     color: #d92cf9;
-    font-size: 20px;
+    font-size: 50px;
     font-weight: 600;
     padding: 33px 0px 57px;
     text-transform: uppercase;
@@ -190,7 +190,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url(../images/about/welcome-banner.jpg)no-repeat;
+    background:url(../images/about/animation.gif)no-repeat;
     background-size:cover;
     background-position: center;
     height:890px;
@@ -329,7 +329,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 --------------------------------------*/
 
 .education {
-    background:  #f9fbfd;
+    background:  #5c84ac;
     padding-top:  50px;
 }
 .education-horizontal-timeline {
